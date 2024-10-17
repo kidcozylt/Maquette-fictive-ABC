@@ -1,0 +1,173 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    position:static;
+    background-image: url(../assets/misc/grille.png);
+}
+
+
+
+
+.hotel, .restaurant, .services, .activites, .plus {
+    margin-right: 10px;
+}
+.logo{
+    float:left;
+    margin-right:275px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+li{
+    list-style: none;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    margin : 5px;
+
+}
+h3{
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+#ht{
+    border-style: solid;
+    size: 10px;
+    border-width: medium;
+    color: orangered;
+}
+#rt{
+    border-style: solid;
+    size: 10px;
+    border-width: medium;
+    color: orange;
+}
+#sv{
+    border-style: solid;
+    size: 10px;
+    border-width: medium;
+    color: green;
+}
+#act{
+    border-style: solid;
+    size: 10px;
+    border-width: medium;
+    color: blue;
+}
+#ps{
+    border-style: solid;
+    size: 10px;
+    border-width: medium;
+    color: violet;
+}
+#txt{
+    display:flex;
+    justify-content: center;
+    font-size: 18px;
+    color: grey;
+    font-family: "droid-serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-image: url(../assets/misc/grille.png);
+    padding:10px ;
+}
+
+#vd{
+    display: flex;
+    justify-content: center;
+}
+.art {
+    display: flex;
+    justify-content: center;
+    
+}
+#golf {
+    border: solid;
+    border-width:0.5px;
+    margin:10px;
+    border-color: grey;
+    
+}
+#acff{
+    margin:10px;
+}
+#ff{
+    margin:10px;
+}
+#acc{
+    margin : 10px;
+    
+}
+p{
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    color: orangered;
+}
+h5 {
+   font-family: "droid-serif", serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 12px;
+    color: gray;
+}
+.lire{
+    font-style: italic;
+    font-family: unset;
+}
+.bdp{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/misc/grille.png);
+
+}
+    
+.rs{
+    display: flex;
+    margin-left: 0%;
+    justify-content: space-evenly;
+    
+    
+}
+#rss,#mail,#twt,#fb,#pin,#ggl{
+    margin-right: 10px;
+    
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.tt{
+    font: bold;
+}
+.lire{
+    color: grey;
+}
+.mg{
+    margin: bottom 0;
+}
+
+@media screen and (max-width:1280px){
+    *{
+        text-align: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .art{
+        flex-direction: column;
+    }
+    .bdp{
+        flex-direction: column;
+    }
+    .rs{
+        flex-direction: column;
+    }
+    .logo{justify-content: center;}
+}
